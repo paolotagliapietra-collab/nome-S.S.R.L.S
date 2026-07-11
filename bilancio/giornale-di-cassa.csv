@@ -1,0 +1,34 @@
+data_movimento,tipo_movimento,conto_bancario,importo_dare,importo_avere,saldo_progressivo,descrizione,documento_allegato,causale
+2024-01-02,Versamento iniziale,IT60X0542811101000000123456,100000,0,100000,Versamento capitale sociale,Visura camerale,Sottoscrizione capitale
+2024-01-05,Pagamento,IT60X0542811101000000123456,0,2500,97500,Pagamento affitto gennaio,Contratto affitto,Affitto spazi
+2024-01-08,Incasso,IT60X0542811101000000123456,1220,0,98720,Incasso fattura FAT-ATT-2024-001,Bonifico cliente,Vendita prodotti
+2024-01-10,Pagamento,IT60X0542811101000000123456,0,9760,88960,Pagamento fornitore FOR001,Bonifico,Acquisto materie prime
+2024-01-12,Incasso,IT60X0542811101000000123456,3050,0,92010,Incasso fattura FAT-ATT-2024-002,Bonifico cliente,Ricavo consulenza
+2024-01-15,Pagamento,IT60X0542811101000000123456,0,5800,86210,Pagamento stipendi gennaio,Cedolino paga,Cedolino gennaio
+2024-01-18,Incasso,IT60X0542811101000000123456,6100,0,92310,Incasso fattura FAT-ATT-2024-003,Assegno,Vendita componenti
+2024-01-22,Pagamento,IT60X0542811101000000123456,0,14640,77670,Pagamento fornitore FOR002,Bonifico,Acquisto componenti
+2024-01-25,Incasso,IT60X0542811101000000123456,1830,0,79500,Incasso fattura FAT-ATT-2024-004,Bonifico cliente,Consulenza branding
+2024-02-02,Incasso,IT60X0542811101000000123456,3660,0,83160,Incasso fattura FAT-ATT-2024-005,Bonifico cliente,Vendita imballaggi
+2024-02-05,Pagamento,IT60X0542811101000000123456,0,2500,80660,Pagamento affitto febbraio,Contratto affitto,Affitto spazi
+2024-02-08,Incasso,IT60X0542811101000000123456,2440,0,83100,Incasso fattura FAT-ATT-2024-006,Bonifico cliente,Manutenzione software
+2024-02-12,Pagamento,IT60X0542811101000000123456,0,5500,77600,Pagamento stipendi febbraio,Cedolino paga,Cedolino febbraio
+2024-02-15,Incasso,IT60X0542811101000000123456,5490,0,83090,Incasso fattura FAT-ATT-2024-007,Bonifico cliente,Fornitura componenti
+2024-02-22,Pagamento,IT60X0542811101000000123456,0,4880,78210,Pagamento consulenti tributari,Fattura,Consulenza tributaria
+2024-02-28,Incasso,IT60X0542811101000000123456,1464,0,79674,Incasso fattura FAT-ATT-2024-008,Bonifico cliente,Consulenza manageriale
+2024-03-01,Pagamento,IT60X0542811101000000123456,0,9150,70524,Pagamento fornitore FOR001,Bonifico,Acquisto materie prime
+2024-03-05,Pagamento,IT60X0542811101000000123456,0,2500,68024,Pagamento affitto marzo,Contratto affitto,Affitto spazi
+2024-03-08,Incasso,IT60X0542811101000000123456,4270,0,72294,Incasso fattura FAT-ATT-2024-009,Assegno,Ricavo materie prime
+2024-03-12,Pagamento,IT60X0542811101000000123456,0,5800,66494,Pagamento stipendi marzo,Cedolino paga,Cedolino marzo
+2024-03-15,Incasso,IT60X0542811101000000123456,7320,0,73814,Incasso fattura FAT-ATT-2024-010,Bonifico cliente,Vendita componenti meccanici
+2024-03-22,Pagamento,IT60X0542811101000000123456,0,4270,69544,Pagamento utilities marzo,Fattura ENEL,Fattura energia
+2024-04-01,Pagamento,IT60X0542811101000000123456,0,2500,67044,Pagamento affitto aprile,Contratto affitto,Affitto spazi
+2024-04-05,Incasso,IT60X0542811101000000123456,3050,0,70094,Incasso fattura FAT-ATT-2024-011,Bonifico cliente,Licenze software
+2024-04-12,Pagamento,IT60X0542811101000000123456,0,18300,51794,Pagamento licenze software,Fattura,Licenze software annuali
+2024-04-15,Pagamento,IT60X0542811101000000123456,0,5600,46194,Pagamento stipendi aprile,Cedolino paga,Cedolino aprile
+2024-05-01,Pagamento,IT60X0542811101000000123456,0,2500,43694,Pagamento affitto maggio,Contratto affitto,Affitto spazi
+2024-05-10,Incasso,IT60X0542811101000000123456,2196,0,45890,Incasso fattura FAT-ATT-2024-012,Bonifico cliente,Ricavi trasporto
+2024-05-15,Pagamento,IT60X0542811101000000123456,0,5800,40090,Pagamento stipendi maggio,Cedolino paga,Cedolino maggio
+2024-06-01,Pagamento,IT60X0542811101000000123456,0,2500,37590,Pagamento affitto giugno,Contratto affitto,Affitto spazi
+2024-06-05,Incasso,IT60X0542811101000000123456,5124,0,42714,Incasso fattura FAT-ATT-2024-013,Assegno,Ricavi materiali
+2024-06-15,Pagamento,IT60X0542811101000000123456,0,6000,36714,Pagamento stipendi giugno,Cedolino paga,Cedolino giugno
+2024-06-30,Incasso,IT60X0542811101000000123456,45000,0,81714,Incasso varie fatture,Bonifico cliente,Incassi vari
