@@ -1,0 +1,26 @@
+numero_fattura,data_fattura,fornitore_id,fornitore_ragione_sociale,importo_netto,iva_22,iva_10,importo_totale,causale,stato_pagamento,data_scadenza,giorni_ritardo,metodo_pagamento
+FAT-PAS-2024-001,2024-01-03,FOR001,Materie Prime S.r.l.,8000,1760,0,9760,Acquisto materie prime alluminio,Pagato,2024-02-02,0,Bonifico
+FAT-PAS-2024-002,2024-01-10,FOR002,Componenti Elettrici Europa,12000,2640,0,14640,Componenti elettrici certificati,Pagato,2024-02-09,0,Bonifico
+FAT-PAS-2024-003,2024-01-17,FOR003,Packaging Solutions Italia,5000,0,500,5500,Imballaggi premium,Pagato,2024-02-16,0,Bonifico
+FAT-PAS-2024-004,2024-01-24,FOR004,Servizi di Trasporto Nazionale,3000,0,300,3300,Servizi di trasporto,Pagato,2024-02-23,0,Bonifico
+FAT-PAS-2024-005,2024-02-01,FOR005,Software Licensing Europa,15000,3300,0,18300,Licenze software annuali,Pagato,2024-03-02,0,Bonifico
+FAT-PAS-2024-006,2024-02-08,FOR006,Consulenti Tributari Associati,4000,880,0,4880,Consulenza tributaria,Pagato,2024-03-09,0,Bonifico
+FAT-PAS-2024-007,2024-02-15,FOR007,Utilities e Servizi Pubblici,2000,0,200,2200,Fatture servizi di utilità,Pagato,2024-03-16,0,Bonifico
+FAT-PAS-2024-008,2024-02-22,FOR008,Attrezzature Ufficio Pro,3500,770,0,4270,Attrezzature e forniture ufficio,Pagato,2024-03-23,0,Bonifico
+FAT-PAS-2024-009,2024-03-01,FOR001,Materie Prime S.r.l.,7500,1650,0,9150,Acquisto materie prime,Pagato,2024-04-01,2,Bonifico
+FAT-PAS-2024-010,2024-03-08,FOR002,Componenti Elettrici Europa,11000,2420,0,13420,Componenti elettrici vari,Pagato,2024-04-07,0,Bonifico
+FAT-PAS-2024-011,2024-03-15,FOR003,Packaging Solutions Italia,4500,0,450,4950,Imballaggi personalizzati,Pagato,2024-04-14,0,Bonifico
+FAT-PAS-2024-012,2024-03-22,FOR004,Servizi di Trasporto Nazionale,2800,0,280,3080,Trasporto merci,Pagato,2024-04-21,0,Bonifico
+FAT-PAS-2024-013,2024-03-29,FOR005,Software Licensing Europa,8000,1760,0,9760,Aggiornamenti licenze,In scadenza,2024-04-28,0,Bonifico
+FAT-PAS-2024-014,2024-04-05,FOR006,Consulenti Tributari Associati,3500,770,0,4270,Consulenza contrattuale,Pagato,2024-05-05,0,Bonifico
+FAT-PAS-2024-015,2024-04-12,FOR007,Utilities e Servizi Pubblici,1800,0,180,1980,Fatture ENEL e GAS,Pagato,2024-05-12,0,Bonifico
+FAT-PAS-2024-016,2024-04-19,FOR008,Attrezzature Ufficio Pro,2500,550,0,3050,Attrezzature informatiche,Pagato,2024-05-19,0,Bonifico
+FAT-PAS-2024-017,2024-04-26,FOR001,Materie Prime S.r.l.,9000,1980,0,10980,Acciaio e alluminio,Pagato,2024-05-26,0,Bonifico
+FAT-PAS-2024-018,2024-05-03,FOR002,Componenti Elettrici Europa,13000,2860,0,15860,Componenti ad alta specialità,In scadenza,2024-06-02,0,Bonifico
+FAT-PAS-2024-019,2024-05-10,FOR003,Packaging Solutions Italia,3800,0,380,4180,Scatole e imballaggi,Pagato,2024-06-09,0,Bonifico
+FAT-PAS-2024-020,2024-05-17,FOR004,Servizi di Trasporto Nazionale,3200,0,320,3520,Trasporto aereo merci,In scadenza,2024-06-16,0,Bonifico
+FAT-PAS-2024-021,2024-05-24,FOR005,Software Licensing Europa,6000,1320,0,7320,Licenze supporto tecnico,Pagato,2024-06-23,0,Bonifico
+FAT-PAS-2024-022,2024-05-31,FOR006,Consulenti Tributari Associati,5000,1100,0,6100,Consulenza aziendale,In scadenza,2024-06-30,0,Bonifico
+FAT-PAS-2024-023,2024-06-07,FOR007,Utilities e Servizi Pubblici,1500,0,150,1650,Servizi pubblici,Pagato,2024-07-07,0,Bonifico
+FAT-PAS-2024-024,2024-06-14,FOR008,Attrezzature Ufficio Pro,4000,880,0,4880,Arredi ufficio,In scadenza,2024-07-14,0,Bonifico
+FAT-PAS-2024-025,2024-06-21,FOR001,Materie Prime S.r.l.,10000,2200,0,12200,Materie prime varie,In scadenza,2024-07-21,0,Bonifico
