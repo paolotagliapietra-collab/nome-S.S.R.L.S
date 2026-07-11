@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-07-11",
+    "total_records": 9,
+    "currency": "EUR"
+  },
+  "contratti_dipendenti": [
+    {
+      "id": "CONT-DIP-001",
+      "dipendente_id": "DIP001",
+      "dipendente_nome": "Marco Rossi",
+      "data_stipula": "2015-03-01",
+      "data_inizio": "2015-03-01",
+      "data_fine": null,
+      "tipo_contratto": "Contratto indeterminato",
+      "categoria": "Dirigente",
+      "qualifica": "Direttore Generale",
+      "inquadramento_contrattuale": "CCNL Industria Metalmeccanica",
+      "livello": "Dirigenziale",
+      "stipendio_mensile_netto": 3800,
+      "stipendio_mensile_lordo": 4500,
+      "ore_settimanali": 40,
+      "giorni_ferie_annui": 26,
+      "tfr_accantonato_annuo": 2250,
+      "contributi_previdenziali": "INPS",
+      "fondo_pensione": "Fondo Industria",
+      "polizza_responsabilita_civile": true,
+      "premio_annuo_risultati": 8000,
+      "allegati": ["CONT-DIP-001_contratto.pdf"],
+      "firma_digitale": true,
+      "data_firma": "2015-03-01",
+      "stato_contratto": "Attivo"
+    },
+    {
+      "id": "CONT-DIP-002",
+      "dipendente_id": "DIP002",
+      "dipendente_nome": "Anna Bianchi",
+      "data_stipula": "2017-06-15",
+      "data_inizio": "2017-06-15",
+      "data_fine": null,
+      "tipo_contratto": "Contratto indeterminato",
+      "categoria": "Quadro",
+      "qualifica": "Responsabile Risorse Umane",
+      "inquadramento_contrattuale": "CCNL Industria Metalmeccanica",
+      "livello": "Quadro",
+      "stipendio_mensile_netto": 2200,
+      "stipendio_mensile_lordo": 2800,
+      "ore_settimanali": 40,
+      "giorni_ferie_annui": 26,
+      "tfr_accantonato_annuo": 1400,
+      "contributi_previdenziali": "INPS",
+      "fondo_pensione": "Fondo Industria",
+      "polizza_responsabilita_civile": false,
+      "premio_annuo_risultati": 2000,
+      "allegati": ["CONT-DIP-002_contratto.pdf"],
+      "firma_digitale": true,
+      "data_firma": "2017-06-15",
+      "stato_contratto": "Attivo"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "versione": "1.0",
+    "data_creazione": "2024-07-11",
+    "descrizione": "Workflow gestione pagamenti fornitori e clienti"
+  },
+  "workflow_pagamento": {
+    "id": "WF-PAGAMENTO-001",
+    "nome": "Ciclo Pagamenti",
+    "descrizione": "Processo di gestione pagamenti a fornitori e riscossione da clienti",
+    "sottotipi": [
+      {
+        "id": "WF-PAG-PASSIVO",
+        "nome": "Pagamento Fornitori",
+        "stati": [
+          {
+            "id": "PAG-01",
+            "nome": "Fattura Ricevuta",
+            "descrizione": "Fattura ricevuta dal fornitore",
+            "azioni": ["Archivia fattura", "Registra in contabilità"],
+            "tempo_medio_giorni": 1
+          },
+          {
+            "id": "PAG-02",
+            "nome": "In Scadenza",
+            "descrizione": "Fattura in attesa di pagamento",
+            "azioni": ["Monitora scadenza", "Allerta se ritardo"],
+            "tempo_medio_giorni": 30
+          },
+          {
+            "id": "PAG-03",
+            "nome": "Pagamento Effettuato",
+            "descrizione": "Pagamento inviato al fornitore",
+            "azioni": ["Registra pagamento", "Aggiorna saldo"],
+            "tempo_medio_giorni": 1
+          },
+          {
+            "id": "PAG-04",
+            "nome": "Pagamento Confermato",
+            "descrizione": "Pagamento confermato da banca",
+            "azioni": ["Archivia quietanza", "Chiudi partita"],
+            "tempo_medio_giorni": 2
+          }
+        ]
+      },
+      {
+        "id": "WF-PAG-ATTIVO",
+        "nome": "Riscossione Clienti",
+        "stati": [
+          {
+            "id": "RIS-01",
+            "nome": "Fattura Emessa",
+            "descrizione": "Fattura emessa al cliente",
+            "azioni": ["Invia fattura", "Registra in contabilità"],
+            "tempo_medio_giorni": 1
+          },
+          {
+            "id": "RIS-02",
+            "nome": "In Scadenza",
+            "descrizione": "Fattura in attesa di incasso",
+            "azioni": ["Monitora scadenza", "Prepara sollecito se necessario"],
+            "tempo_medio_giorni": 30
+          },
+          {
+            "id": "RIS-03",
+            "nome": "Sollecito Inviato",
+            "descrizione": "Sollecito di pagamento inviato al cliente",
+            "azioni": ["Invia email sollecito", "Registra tentativo riscossione"],
+            "tempo_medio_giorni": 5
+          },
+          {
+            "id": "RIS-04",
+            "nome": "Pagamento Ricevuto",
+            "descrizione": "Pagamento ricevuto dal cliente",
+            "azioni": ["Registra incasso", "Aggiorna saldo"],
+            "tempo_medio_giorni": 1
+          },
+          {
+            "id": "RIS-05",
+            "nome": "Partita Chiusa",
+            "descrizione": "Partita cliente chiusa",
+            "azioni": ["Archivia documentazione", "Aggiorna scadenzario"],
+            "tempo_medio_giorni": 1
+          }
+        ]
+      }
+    ],
+    "kpi_monitorati": {
+      "giorni_medio_pagamento_fornitori": 25,
+      "giorni_medio_incasso_clienti": 28,
+      "percentuale_pagamenti_on_time": 92,
+      "percentuale_fatture_scadute": 8
+    }
+  }
+}

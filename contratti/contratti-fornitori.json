@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-07-11",
+    "total_records": 8,
+    "currency": "EUR"
+  },
+  "contratti_fornitori": [
+    {
+      "id": "CONT-FOR-001",
+      "data_stipula": "2019-01-15",
+      "data_inizio": "2019-01-15",
+      "data_fine": "2025-01-14",
+      "durata_mesi": 72,
+      "fornitore_id": "FOR001",
+      "fornitore_ragione_sociale": "Materie Prime S.r.l.",
+      "tipo_contratto": "Fornitura Continuativa",
+      "oggetto": "Fornitura Materie Prime - Accordo Triennale Rinnovato",
+      "importo_totale": 480000,
+      "importo_annuale": 80000,
+      "importo_mensile": 6667,
+      "modalita_pagamento": "Mensile",
+      "condizioni_pagamento": "Fattura a fine mese, pagamento entro 30 giorni",
+      "giorni_pagamento": 30,
+      "descrizione": "Accordo di fornitura continuativa materie prime con prezzi indicizzati a Indice ISTAT",
+      "allegati": ["CONT-FOR-001_allegato-1.pdf"],
+      "firma_digitale": true,
+      "data_firma": "2019-01-15",
+      "firmatario_fornitore": "Davide Rossi - Direttore Commerciale",
+      "firmatario_cliente": "Paolo Tagliapietra - Amministratore",
+      "stato_contratto": "Attivo",
+      "note": "Contratto rinnovato nel 2022 con sconto volume 8%"
+    },
+    {
+      "id": "CONT-FOR-002",
+      "data_stipula": "2020-06-01",
+      "data_inizio": "2020-06-01",
+      "data_fine": "2025-05-31",
+      "durata_mesi": 60,
+      "fornitore_id": "FOR002",
+      "fornitore_ragione_sociale": "Componenti Elettrici Europa",
+      "tipo_contratto": "Fornitura Componenti Specializzati",
+      "oggetto": "Fornitura Componenti Elettrici Certificati CE",
+      "importo_totale": 600000,
+      "importo_annuale": 120000,
+      "importo_mensile": 10000,
+      "modalita_pagamento": "Mensile",
+      "condizioni_pagamento": "Documento di trasporto firmato, pagamento entro 15 giorni",
+      "giorni_pagamento": 15,
+      "descrizione": "Fornitura continuativa componenti elettrici con certificazione CE e conformità normative EU",
+      "allegati": ["CONT-FOR-002_allegato-1.pdf", "CONT-FOR-002_certificazioni.pdf"],
+      "firma_digitale": true,
+      "data_firma": "2020-06-01",
+      "firmatario_fornitore": "Klaus Mueller - Sales Director",
+      "firmatario_cliente": "Paolo Tagliapietra - Amministratore",
+      "stato_contratto": "Attivo",
+      "note": "Fornitore primario europeo, qualità garantita"
+    }
+  ]
+}

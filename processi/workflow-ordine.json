@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "versione": "1.0",
+    "data_creazione": "2024-07-11",
+    "descrizione": "Workflow completo ciclo ordine da ricezione a fatturazione"
+  },
+  "workflow_ordine": {
+    "id": "WF-ORDINE-001",
+    "nome": "Ciclo Ordine Completo",
+    "descrizione": "Processo end-to-end dalla ricezione dell'ordine alla fatturazione al cliente",
+    "stati": [
+      {
+        "id": "STATO-01",
+        "nome": "Ordine Ricevuto",
+        "descrizione": "L'ordine è stato ricevuto dal cliente via email, telefono o portale",
+        "azioni_automatiche": ["Invia conferma ricezione", "Assegna numero ordine"],
+        "ruolo_responsabile": "Agente di Vendita",
+        "tempo_medio_giorni": 1
+      },
+      {
+        "id": "STATO-02",
+        "nome": "Verifica Disponibilità",
+        "descrizione": "Verifica della disponibilità prodotti in magazzino",
+        "azioni_automatiche": ["Controlla giacenza", "Eventualmente ordina ai fornitori"],
+        "ruolo_responsabile": "Responsabile Magazzino",
+        "tempo_medio_giorni": 2
+      },
+      {
+        "id": "STATO-03",
+        "nome": "Fatturazione",
+        "descrizione": "Creazione della fattura di vendita",
+        "azioni_automatiche": ["Genera fattura XML", "Invia fattura al cliente"],
+        "ruolo_responsabile": "Addetto Amministrazione",
+        "tempo_medio_giorni": 1
+      },
+      {
+        "id": "STATO-04",
+        "nome": "Spedizione",
+        "descrizione": "Preparazione e spedizione della merce",
+        "azioni_automatiche": ["Genera DDT", "Traccia spedizione"],
+        "ruolo_responsabile": "Responsabile Logistica",
+        "tempo_medio_giorni": 3
+      },
+      {
+        "id": "STATO-05",
+        "nome": "Ordine Completato",
+        "descrizione": "Ordine consegnato e registrato come completato",
+        "azioni_automatiche": ["Archivia documentazione", "Aggiorna CRM"],
+        "ruolo_responsabile": "Sistema Automatico",
+        "tempo_medio_giorni": 1
+      }
+    ],
+    "transizioni": [
+      {"da": "STATO-01", "a": "STATO-02", "condizione": "Ordine confermato dal cliente"},
+      {"da": "STATO-02", "a": "STATO-03", "condizione": "Prodotti disponibili"},
+      {"da": "STATO-03", "a": "STATO-04", "condizione": "Fattura generata e inviata"},
+      {"da": "STATO-04", "a": "STATO-05", "condizione": "Merce spedita e tracciata"}
+    ],
+    "tempo_totale_medio_giorni": 8,
+    "escalation": [
+      {
+        "condizione": "Prodotto non disponibile",
+        "azione": "Notifica al direttore vendite",
+        "tempo_massimo_ore": 4
+      },
+      {
+        "condizione": "Ritardo spedizione superiore a 3 giorni",
+        "azione": "Contatta cliente e offri sconto",
+        "tempo_massimo_ore": 24
+      }
+    ]
+  }
+}
