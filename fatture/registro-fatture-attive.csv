@@ -1,0 +1,26 @@
+numero_fattura,data_fattura,cliente_id,cliente_ragione_sociale,importo_netto,iva_22,iva_10,importo_totale,causale,stato_pagamento,data_scadenza,giorni_ritardo,metodo_pagamento,numero_documento_trasporto
+FAT-ATT-2024-001,2024-01-05,CLI001,TechSolutions S.r.l.,1000,220,0,1220,Fornitura software licenze,Pagato,2024-02-04,0,Bonifico,DDT-001
+FAT-ATT-2024-002,2024-01-12,CLI002,GreenEnergy Italia s.p.a.,2500,550,0,3050,Consulenza strategica,Pagato,2024-02-11,0,Assegno,DDT-002
+FAT-ATT-2024-003,2024-01-18,CLI003,Costruzioni Moderni s.r.l.,5000,1100,0,6100,Componenti e materiali,Pagato,2024-02-17,5,Bonifico,DDT-003
+FAT-ATT-2024-004,2024-01-25,CLI004,Fashion Designer Italia s.r.l.,1500,330,0,1830,Servizio di consulenza branding,Pagato,2024-02-24,0,Bonifico,DDT-004
+FAT-ATT-2024-005,2024-02-02,CLI005,Logistica Express s.r.l.,3000,660,0,3660,Imballaggi e packaging,Pagato,2024-03-03,0,Bonifico,DDT-005
+FAT-ATT-2024-006,2024-02-08,CLI001,TechSolutions S.r.l.,2000,440,0,2440,Manutenzione software,Pagato,2024-03-09,3,Bonifico,DDT-006
+FAT-ATT-2024-007,2024-02-15,CLI006,Farmaci e Salute s.p.a.,4500,990,0,5490,Fornitura componenti certificati,Pagato,2024-03-16,0,Bonifico,DDT-007
+FAT-ATT-2024-008,2024-02-22,CLI007,Hotel Riviera Resort s.r.l.,1200,264,0,1464,Consulenza manageriale,Pagato,2024-03-23,0,Bonifico,DDT-008
+FAT-ATT-2024-009,2024-03-01,CLI008,Alimentari Premium s.r.l.,3500,770,0,4270,Materie prime e ingredienti,Pagato,2024-04-01,0,Assegno,DDT-009
+FAT-ATT-2024-010,2024-03-08,CLI009,Automotive Parts Italia s.r.l.,6000,1320,0,7320,Componenti meccanici lavorati,Pagato,2024-04-07,0,Bonifico,DDT-010
+FAT-ATT-2024-011,2024-03-15,CLI010,Software Development Pro s.r.l.,2500,550,0,3050,Licenze software annuali,In scadenza,2024-04-14,0,Bonifico,DDT-011
+FAT-ATT-2024-012,2024-03-22,CLI002,GreenEnergy Italia s.p.a.,1800,396,0,2196,Servizi di trasporto,Pagato,2024-04-21,0,Bonifico,DDT-012
+FAT-ATT-2024-013,2024-03-29,CLI003,Costruzioni Moderni s.r.l.,4200,924,0,5124,Materiali costruzione,Pagato,2024-04-28,8,Assegno,DDT-013
+FAT-ATT-2024-014,2024-04-05,CLI005,Logistica Express s.r.l.,2800,616,0,3416,Consulenza logistica,Pagato,2024-05-05,0,Bonifico,DDT-014
+FAT-ATT-2024-015,2024-04-12,CLI001,TechSolutions S.r.l.,3500,770,0,4270,Servizi manutenzione IT,Pagato,2024-05-12,0,Bonifico,DDT-015
+FAT-ATT-2024-016,2024-04-19,CLI004,Fashion Designer Italia s.r.l.,1000,220,0,1220,Branding e marketing,In scadenza,2024-05-19,0,Bonifico,DDT-016
+FAT-ATT-2024-017,2024-04-26,CLI006,Farmaci e Salute s.p.a.,5500,1210,0,6710,Componenti farmaceutici,Pagato,2024-05-26,0,Bonifico,DDT-017
+FAT-ATT-2024-018,2024-05-03,CLI007,Hotel Riviera Resort s.r.l.,2000,440,0,2440,Servizi di consulenza turismo,Pagato,2024-06-02,0,Bonifico,DDT-018
+FAT-ATT-2024-019,2024-05-10,CLI008,Alimentari Premium s.r.l.,2200,484,0,2684,Imballaggi per alimenti,In scadenza,2024-06-09,0,Bonifico,DDT-019
+FAT-ATT-2024-020,2024-05-17,CLI009,Automotive Parts Italia s.r.l.,7000,1540,0,8540,Componenti e assemblaggio,Pagato,2024-06-16,0,Bonifico,DDT-020
+FAT-ATT-2024-021,2024-05-24,CLI010,Software Development Pro s.r.l.,1500,330,0,1830,Aggiornamenti software,In scadenza,2024-06-23,0,Bonifico,DDT-021
+FAT-ATT-2024-022,2024-05-31,CLI002,GreenEnergy Italia s.p.a.,3200,704,0,3904,Consulenza energetica,Pagato,2024-06-30,0,Assegno,DDT-022
+FAT-ATT-2024-023,2024-06-07,CLI003,Costruzioni Moderni s.r.l.,4800,1056,0,5856,Materiali e consulenza,Pagato,2024-07-07,15,Bonifico,DDT-023
+FAT-ATT-2024-024,2024-06-14,CLI001,TechSolutions S.r.l.,2500,550,0,3050,Supporto tecnico annuale,In scadenza,2024-07-14,0,Bonifico,DDT-024
+FAT-ATT-2024-025,2024-06-21,CLI005,Logistica Express s.r.l.,3800,836,0,4636,Servizi di logistica integrata,In scadenza,2024-07-21,0,Bonifico,DDT-025
