@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "versione": "1.0",
+    "data_aggiornamento": "2024-07-11",
+    "società": "Nome S.S.R.L.S",
+    "esercizio": 2024,
+    "valuta": "EUR"
+  },
+  "stato_patrimoniale": {
+    "data_bilancio": "2024-06-30",
+    "attivo": {
+      "attivo_corrente": {
+        "disponibilita_liquide": {
+          "cassa": 5000,
+          "conti_correnti_bancari": 185000,
+          "totale": 190000
+        },
+        "crediti_verso_clienti": {
+          "crediti_entro_esercizio_successivo": 245000,
+          "fondo_svalutazione": -5000,
+          "totale": 240000
+        },
+        "rimanenze": {
+          "materie_prime": 45000,
+          "semilavorati": 12000,
+          "prodotti_finiti": 35000,
+          "merci": 18000,
+          "totale": 110000
+        },
+        "ratei_e_risconti_attivi": 8000,
+        "totale_attivo_corrente": 548000
+      },
+      "attivo_immobilizzato": {
+        "immobilizzazioni_immateriali": {
+          "software": 8000,
+          "licenze": 12000,
+          "totale": 20000
+        },
+        "immobilizzazioni_materiali": {
+          "impianti_e_macchinari": 150000,
+          "arredi_ufficio": 35000,
+          "attrezzature": 45000,
+          "furgoni_trasporto": 80000,
+          "ammortamenti": -95000,
+          "totale_netto": 215000
+        },
+        "immobilizzazioni_finanziarie": {
+          "partecipazioni": 5000,
+          "titoli": 10000,
+          "totale": 15000
+        },
+        "totale_attivo_immobilizzato": 250000
+      },
+      "totale_attivo": 798000
+    },
+    "passivo": {
+      "passivo_corrente": {
+        "debiti_verso_fornitori": {
+          "debiti_entro_esercizio_successivo": 168000,
+          "totale": 168000
+        },
+        "debiti_tributari": {
+          "iva_da_versare": 15000,
+          "imposte_sul_reddito": 22000,
+          "totale": 37000
+        },
+        "debiti_verso_istituti_previdenziali": {
+          "inps": 8000,
+          "totale": 8000
+        },
+        "debiti_verso_dipendenti": {
+          "stipendi_accrui": 15000,
+          "tfr": 45000,
+          "totale": 60000
+        },
+        "ratei_e_risconti_passivi": 5000,
+        "totale_passivo_corrente": 278000
+      },
+      "passivo_non_corrente": {
+        "prestiti_bancari": {
+          "finanziamento_a_lungo_termine": 150000,
+          "totale": 150000
+        },
+        "ratei_e_risconti_passivi": 10000,
+        "totale_passivo_non_corrente": 160000
+      },
+      "totale_passivo": 438000
+    },
+    "patrimonio_netto": {
+      "capitale_sociale": 150000,
+      "riserve": 85000,
+      "risultato_esercizio": 125000,
+      "totale_patrimonio_netto": 360000
+    },
+    "totale_passivo_e_patrimonio_netto": 798000
+  },
+  "conto_economico": {
+    "ricavi_da_vendite_e_prestazioni": {
+      "ricavi_vendite_prodotti": 180000,
+      "ricavi_prestazioni_servizi": 145000,
+      "totale": 325000
+    },
+    "costi_della_produzione": {
+      "materie_prime_e_materie_di_consumo": 65000,
+      "costi_del_personale": {
+        "salari_e_stipendi": 285000,
+        "oneri_sociali": 55000,
+        "tfr": 15000,
+        "totale": 355000
+      },
+      "ammortamenti_e_svalutazioni": {
+        "ammortamenti_immobilizzazioni_materiali": 45000,
+        "ammortamenti_immobilizzazioni_immateriali": 8000,
+        "svalutazioni_crediti": 5000,
+        "totale": 58000
+      },
+      "altri_costi_operativi": {
+        "energia_e_utilities": 12000,
+        "trasporti": 18000,
+        "manutenzione": 10000,
+        "servizi_esterni": 25000,
+        "affitti": 24000,
+        "assicurazioni": 8000,
+        "comunicazioni": 6000,
+        "consulenze": 12000,
+        "altro": 5000,
+        "totale": 120000
+      },
+      "totale_costi_produzione": 598000
+    },
+    "margine_operativo_lordo": -273000,
+    "proventi_e_oneri_finanziari": {
+      "interessi_e_oneri_finanziari": -8000,
+      "altri_proventi_finanziari": 2000,
+      "totale_netto": -6000
+    },
+    "rettifiche_per_rischi_e_oneri": -5000,
+    "risultato_gestione_ordinaria": -284000,
+    "proventi_straordinari": 15000,
+    "oneri_straordinari": -3000,
+    "totale_proventi_oneri_straordinari": 12000,
+    "risultato_prima_delle_imposte": -272000,
+    "imposte_sul_reddito": -52000,
+    "risultato_netto_esercizio": 125000
+  }
+}
